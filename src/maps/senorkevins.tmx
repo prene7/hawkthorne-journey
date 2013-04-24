@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="15" tilewidth="24" tileheight="24">
+ <properties>
+  <property name="title" value="Senor Kevins"/>
+ </properties>
+ <tileset firstgid="1" name="senorkevins" tilewidth="24" tileheight="24">
+  <image source="../images/tilesets/senorkevins.png" width="300" height="200"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYBzFo3gUj+JRPIqhGACtqAGH
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsKUD9hxmeBSMglEw+IExnbARnTCwLD1ADwwApkQ4+w==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFowACeGmMR+0ZtWcg7BkFpAMAn5IIiQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF5ADJYYiliPQ7UF0DJXpIAaN6RvVQomcUkAcAWsUJOQ==
+  </data>
+ </layer>
+ <layer name="Tile Layer 5" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztzssOQDAQheGJOxt3e2pLPaJH99NN09hgJelJvs1k5rQiPj4+f0jwwJebWWRXmDDC/kOKDDkKa56wFyNC6NycoUfoE2X6r2zsaaxYnJsWHXoM1rxhr0aF8uYdeoQ+0abf52UOD+0LfQ==
+  </data>
+ </layer>
+ <objectgroup name="block" width="26" height="15">
+  <object x="1" y="289" width="622" height="69"/>
+ </objectgroup>
+</map>

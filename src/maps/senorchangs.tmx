@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="26" height="15" tilewidth="24" tileheight="24">
+ <properties>
+  <property name="offset" value="1"/>
+ </properties>
+ <tileset firstgid="1" name="senorkevins" tilewidth="24" tileheight="24">
+  <image source="../../../Hawkthorne/senorkevins.png" width="300" height="200"/>
+ </tileset>
+ <layer name="Tile Layer 3" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjZGBgYKQytkXD1DZ/FI/iUTyKRxpmoKM9AA+yAnU=
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFlAJeAphS9cToQddLqvpRe0btGbWHcnuGCwAACnQJ9Q==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyTZGBgkBzFQwJLMTAoMOAAQLkF5KhHB9jE8KkhVf2oPaP2DGd7hgsAANkgD/k=
+  </data>
+ </layer>
+ <layer name="Tile Layer 1" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsKUDVmVgWEAPzDCAQJyBwUECgg8A2QcG0i2jgHTAN0zsGAUIYEwnbE8nTI+yGoQBbjgudQ==
+  </data>
+ </layer>
+ <objectgroup name="Block" width="26" height="15">
+  <object x="0" y="301" width="622" height="54"/>
+ </objectgroup>
+</map>

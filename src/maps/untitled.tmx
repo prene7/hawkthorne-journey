@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="40" height="15" tilewidth="24" tileheight="24">
+ <properties>
+  <property name="blue" value=""/>
+  <property name="green" value=""/>
+  <property name="offset" value="1"/>
+  <property name="red" value=""/>
+  <property name="soundtrack" value=""/>
+  <property name="tile" value=""/>
+  <property name="warpin" value=""/>
+ </properties>
+ <tileset firstgid="1" name="mansion" tilewidth="24" tileheight="24">
+  <image source="../Pictures/Hawkthorne/Levels/mansion.png" width="264" height="264"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYmBgYBrFo3gU48W8g8ANo3gUDzfMMAjcMJTdN4oHNwYARzIEuA==
+  </data>
+ </layer>
+ <layer name="Tile Layer 2" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzNlMtKw0AUhidko2KrrjS0YNGFeKkgeFl560K8LsTrRo36IvMofZQ8Sh/Fb5oEDtNJm44JdOBjmPNnznxMSAKlVCCQI7AIldIN5pzQyhfJleewe7v6z6IfPWMJtURkA0Hs8pN7V2vwo2ef3p0c1knZHqGny/oUfjjZ72jELyzo4evnGmPub5iZd5it9Sz5ZVky7rz/+G3DDuzCnr+frsvvEI7gGE48/JaoN6fwm2Oeh4UJfqdwBudwAZfQE/WyfjJznWcy8Z33ZWbWB+m/ZVi/ElzDDdzCHdzDg6jLZ8v6cY/mPp1++Xcuh/1vfmTOeYJneIFXeIN3UZfPTvKLyNbSeWSYLBJ++yX8PuATviCGb/iBX1G3/SKHnzl3AzYrYBlaBayk6FYB7NWunrjpbnYnVdCusJehW7HfVg1+f3qhUW0=
+  </data>
+ </layer>
+ <layer name="Tile Layer 3" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztlEFuwjAQRU2jQkuBSqg0sAPBGsSOJRKoy1ZdhlWO4qPkKDlKj9Jv2U6GYUJiWFChfulpPMzY+RmSKFWqB1oE5HlVjfRo3yPVr4Xqr/uL7fVSD/I0wvWjsvbDiYk/qX4tzKIyfvo2FnnEmwQl4IBeSkK8e40sJ7830Sv2DQR/TfbCy/bASIT7h7d0RJ6bJqL/qTS/kLOoHmrqbuYmZk3P9P4wRzPPwt8QvIA318dz6qnOF/GXwl+eBMzz3PzewSNog47LuUL8XaKq+RnNwBN4Bl2X12lzvNZVfaH++Du7BgvU5oge5ObZzUwd35n8A5GzA3uLxlpLPW5/hrOmnAB/egWWWHtWrOdb4BN8WTTWWupRqvj+5xzub4IzxjaK81vc2N+/7ku/CcBZQg==
+  </data>
+ </layer>
+ <layer name="Tile Layer 4" width="40" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFtAQ8DAwPQHig3YEMVIlUx0ym+fJk6oMBAyLU8AIxHxDzU2gXtQDQHQ1A9zSA2MSGL7UAM9ReQkAYShug8WnlBnLTz2ACxIbtQAJ8+cAQghMMKbQDagYMg/gN+MwkNu6lEG5cQKH7DhiimgdypwIlZkLNVYD69QE13AcyB+RXqPsOUOo+EFCjjhkNVDBmFKABAEy4FEc=
+  </data>
+ </layer>
+ <objectgroup name="nodes" width="40" height="15" opacity="0.9">
+  <object name="main" type="door" x="600" y="216" width="48" height="72">
+   <properties>
+    <property name="level" value="mansion_interior"/>
+    <property name="sound" value="false"/>
+    <property name="to" value="leftmirror"/>
+   </properties>
+  </object>
+  <object name="main" type="door" x="600" y="216" width="48" height="72">
+   <properties>
+    <property name="level" value="mansion_interior"/>
+    <property name="sound" value="false"/>
+    <property name="to" value="leftmirror"/>
+   </properties>
+  </object>
+  <object name="main" type="door" x="24" y="240" width="24" height="48"/>
+ </objectgroup>
+ <objectgroup name="block" width="40" height="15">
+  <object x="0" y="288" width="960" height="72"/>
+ </objectgroup>
+ <objectgroup name="platform" width="40" height="15">
+  <object x="264" y="264" width="48" height="24"/>
+  <object x="264" y="216" width="120" height="72"/>
+  <object x="288" y="168" width="72" height="24"/>
+  <object x="288" y="192" width="72" height="24"/>
+ </objectgroup>
+</map>
