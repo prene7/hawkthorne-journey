@@ -1,37 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.0" orientation="orthogonal" width="26" height="15" tilewidth="24" tileheight="24">
  <properties>
+  <property name="offset" value="1"/>
   <property name="title" value="Senor Kevins"/>
  </properties>
  <tileset firstgid="1" name="senorkevins" tilewidth="24" tileheight="24">
-  <image source="../images/tilesets/senorkevins.png" width="300" height="200"/>
+  <image source="../images/tilesets/senorkevins.png" width="288" height="192"/>
  </tileset>
  <layer name="Tile Layer 1" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjZGBgYBzFo3gUj+JRPIqhGACtqAGH
+   eJxjYBgFIx0wDjN7RgIwoRKmhx347KOFHej20MoOZLtobQcx8UVNAACx2haP
   </data>
  </layer>
- <layer name="Tile Layer 2" width="26" height="15">
+ <layer name="blue" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJyzZWBgsKUD9hxmeBSMglEw+IExnbARnTCwLD1ADwwApkQ4+w==
+   eJxjYBgFQw3wUohH7Rke9oyCUUArAAAWSgQR
+  </data>
+ </layer>
+ <layer name="green" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYKAPYBwBmBg/UxpG1AL0sgeXXbQC9LAD2a5RMAqGIwAAsNsAWQ==
+  </data>
+ </layer>
+ <layer name="pink" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJyzZWBgsKUDHu5AioHhgSSQJgdLQ2mgGQnE2CGFW74BZiY2NepIanDZhewPfIAUNeh2AfkHkP1PLXuQ7cIWH9S0B2YXtviktj3YMK40QApATi+0soOQXdS0A5ddtLAD3S5a2oFk1wJgWXqAHhgApYwzqg==
+  </data>
+ </layer>
+ <layer name="Tile Layer 6" width="26" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgF1ADeUFociCUQuAHIb0BXi6bmAJB/gBQ7QEAWiOUocC+xQBOItahspjca3wsPJkUNIeAHxP5AHADEgWh8UtQQAlFAHA3EMUAci8YnRc0oGAUDBQB2WhI8
   </data>
  </layer>
  <layer name="Tile Layer 4" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFowACeGmMR+0ZtWcg7BkFpAMAn5IIiQ==
+   eJxjYBh8wAyIzYHYAogtaWiPExA7A7ELELtSaJYPEPsCcTiZGKi3AWhGAzF2gEAYUC069gZiB6i8Nx41+OxCs0MBWc4KiK0h4g8YEGoSsJkDU4PNLmQ7sNmDbgYfEfag24VuBzQ8FNzQ9LtBzeBD8g8uNchiMLsi0OyA2RuEZkYQA2a4YVODLbwi8IRfHJoZ6Hx8aohNB9QAxKQDWthFKzvQ7YogrJRigJ4OaAkAvf87Mw==
   </data>
  </layer>
- <layer name="Tile Layer 3" width="26" height="15">
+ <layer name="Tile Layer 7" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF5ADJYYiliPQ7UF0DJXpIAaN6RvVQomcUkAcAWsUJOQ==
+   eJxjYBgF1ALhA6QXF5AHYgUamIsOtIFYB4hlgViODvZpArEWHeyhBQhnoE1cj4JRQE0AAFCnAoE=
   </data>
  </layer>
- <layer name="Tile Layer 5" width="26" height="15">
+ <layer name="Tile Layer 8" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJztzssOQDAQheGJOxt3e2pLPaJH99NN09hgJelJvs1k5rQiPj4+f0jwwJebWWRXmDDC/kOKDDkKa56wFyNC6NycoUfoE2X6r2zsaaxYnJsWHXoM1rxhr0aF8uYdeoQ+0abf52UOD+0LfQ==
+   eJxjYBgFo2DgQDwDgwIVzFhAyI4EKtgDNGMBLruoZQc+u6htBza7aGUHul20tAPZLlrbMVwBALMpDvc=
   </data>
  </layer>
- <objectgroup name="block" width="26" height="15">
-  <object x="1" y="289" width="622" height="69"/>
+ <objectgroup name="floorspace" width="26" height="15">
+  <object x="2" y="335" visible="0">
+   <properties>
+    <property name="primary" value="true"/>
+   </properties>
+   <polygon points="0,0 119,-119 501,-119 621,0"/>
+  </object>
+  <object x="222" y="247">
+   <properties>
+    <property name="height" value="24"/>
+   </properties>
+   <polygon points="-14,-5 -15,1 -77,0 -75,-5"/>
+  </object>
+ </objectgroup>
+ <objectgroup name="nodes" width="26" height="15">
+  <object name="main" type="door" x="293" y="189" width="20" height="30">
+   <properties>
+    <property name="level" value="senorkevins"/>
+   </properties>
+  </object>
+  <object type="sprite" x="433" y="275" width="76" height="36">
+   <properties>
+    <property name="depth" value="24"/>
+    <property name="direction" value="right"/>
+    <property name="height" value="35"/>
+    <property name="sheet" value="images/table-green.png"/>
+    <property name="width" value="12"/>
+   </properties>
+  </object>
+  <object type="sprite" x="382" y="197" width="83" height="45">
+   <properties>
+    <property name="depth" value="24"/>
+    <property name="direction" value="right"/>
+    <property name="height" value="35"/>
+    <property name="sheet" value="images/table-yellow.png"/>
+    <property name="width" value="12"/>
+   </properties>
+  </object>
+  <object type="sprite" x="263" y="227" width="80" height="38">
+   <properties>
+    <property name="depth" value="24"/>
+    <property name="direction" value="right"/>
+    <property name="height" value="35"/>
+    <property name="sheet" value="images/table-pink.png"/>
+    <property name="width" value="12"/>
+   </properties>
+  </object>
+  <object type="sprite" x="135" y="207" width="82" height="40">
+   <properties>
+    <property name="depth" value="5"/>
+    <property name="direction" value="right"/>
+    <property name="height" value="36"/>
+    <property name="sheet" value="images/table-pink.png"/>
+    <property name="width" value="78"/>
+   </properties>
+  </object>
+  <object type="sprite" x="70" y="274" width="79" height="39">
+   <properties>
+    <property name="depth" value="24"/>
+    <property name="direction" value="right"/>
+    <property name="height" value="35"/>
+    <property name="sheet" value="images/table-green.png"/>
+    <property name="width" value="12"/>
+   </properties>
+  </object>
+  <object type="sprite" x="238" y="296" width="82" height="41">
+   <properties>
+    <property name="depth" value="24"/>
+    <property name="direction" value="right"/>
+    <property name="height" value="35"/>
+    <property name="sheet" value="images/table-yellow.png"/>
+    <property name="width" value="12"/>
+   </properties>
+  </object>
  </objectgroup>
 </map>
