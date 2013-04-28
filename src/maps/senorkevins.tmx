@@ -9,7 +9,7 @@
  </tileset>
  <layer name="Tile Layer 1" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFIx0wDjN7RgIwoRKmhx347KOFHej20MoOZLtobQcx8UVNAACx2haP
+   eJxjYBgFIx0wDjN7hjswoTKmhx3Y7KKVHch20doOemN6AQACVxf7
   </data>
  </layer>
  <layer name="blue" width="26" height="15">
@@ -19,12 +19,12 @@
  </layer>
  <layer name="green" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYKAPYBwBmBg/UxpG1AL0sgeXXbQC9LAD2a5RMAqGIwAAsNsAWQ==
+   eJxjYKAPYBwBmBg/UxpG1AL0sgeXXchytLILXZzaAFecj4JRMNQBALprAFw=
   </data>
  </layer>
  <layer name="pink" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJyzZWBgsKUDHu5AioHhgSSQJgdLQ2mgGQnE2CGFW74BZiY2NepIanDZhewPfIAUNeh2AfkHkP1PLXuQ7cIWH9S0B2YXtviktj3YMK40QApATi+0soOQXdS0A5ddtLAD3S5a2oFk1wJgWXqAHhgApYwzqg==
+   eJyzZWBgsKUDHu5AioHhgSSQJgdLQ2mgGQnE2CGFW74BZiY2NepIanDZhewPfIAUNeh2AfkHkP1PLXuQ7cIWH9S0B2YXtviktj1Y7KUaQE4ztLIDl120sAPdLlragWwXHawBA2BZeoAeGAD1JjIO
   </data>
  </layer>
  <layer name="Tile Layer 6" width="26" height="15">
@@ -34,17 +34,17 @@
  </layer>
  <layer name="Tile Layer 4" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBh8wAyIzYHYAogtaWiPExA7A7ELELtSaJYPEPsCcTiZGKi3AWhGAzF2gEAYUC069gZiB6i8Nx41+OxCs0MBWc4KiK0h4g8YEGoSsJkDU4PNLmQ7sNmDbgYfEfag24VuBzQ8FNzQ9LtBzeBD8g8uNchiMLsi0OyA2RuEZkYQA2a4YVODLbwi8IRfHJoZ6Hx8aohNB9QAxKQDWthFKzvQ7YogrJRigJ4OaAkAvf87Mw==
+   eJzNkksOwjAMRH0qvhvEpxvqTRdNVoij9Cg5GkdhKuLWshxARZEYaZQ2nvg1TYj+Tyt4DW/gbUXOET7BZ/jyY682j2Ghc4/hEwPZ+/jMcI+8OBIl1NNBZUuZdyxZN3KEJdrB+1ctyVwsfCvnDMbBsoRBBQ7NtYnTFzKYfyjmxNIMzWnM+sbheBnN0Sy9/6vidKZHpzghc7wMO+cSnf8nd+ZmsvIevsy0au+WwV5hofTdq8XwWLUYllWTIeLCWdXQE2z1O7Y=
   </data>
  </layer>
  <layer name="Tile Layer 7" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgF1ALhA6QXF5AHYgUamIsOtIFYB4hlgViODvZpArEWHeyhBQhnoE1cj4JRQE0AAFCnAoE=
+   eJxjYBgF1ALhdLLHB4h9iVAnD8QKWMSB7lxAjD0RRKgBmpWgDaR1gFgWiOWQ7CDWHmIAyB4YWxOItehgD5o4VewJR9A0tWcUjAJKAAA00A5P
   </data>
  </layer>
  <layer name="Tile Layer 8" width="26" height="15">
   <data encoding="base64" compression="zlib">
-   eJxjYBgFo2DgQDwDgwIVzFhAyI4EKtgDNGMBLruoZQc+u6htBza7aGUHul20tAPZLlrbMVwBALMpDvc=
+   eJxjYBgFgwGEU8kcdyD2oJJZ+EAwEIfQwR4Q4KNQfzwDgwK17ACatQCXHQlE2EMsAJq1AN0uatuBzS5a2YFuFy3tQLaL1nYMVwAA63gNog==
   </data>
  </layer>
  <objectgroup name="floorspace" width="26" height="15">
@@ -67,7 +67,7 @@
     <property name="level" value="senorkevins"/>
    </properties>
   </object>
-  <object type="sprite" x="433" y="275" width="76" height="36">
+  <object type="sprite" x="437" y="289" width="76" height="36">
    <properties>
     <property name="depth" value="24"/>
     <property name="direction" value="right"/>
@@ -76,7 +76,7 @@
     <property name="width" value="12"/>
    </properties>
   </object>
-  <object type="sprite" x="382" y="197" width="83" height="45">
+  <object type="sprite" x="406" y="216" width="83" height="45">
    <properties>
     <property name="depth" value="24"/>
     <property name="direction" value="right"/>
